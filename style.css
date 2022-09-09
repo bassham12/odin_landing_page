@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+nav ul a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+header,
+.hero,
+.info-container,
+.quote-container,
+.sign-up-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
+.hero,
+.info-container,
+.quote-container,
+.sign-up-container {
+  padding-top: 40px;
+}
+
+header,
+.hero {
+  background-color: rgb(64, 61, 88);
+  color: whitesmoke;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-header {
+  width: 40%;
+  height: 20%;
+}
+
+.hero-header h2,
+.hero-header p {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  padding: 10%;
+  align-content: center;
+  margin: auto;
+  margin-left: 10%;
+  background-color: lightgrey;  
+}
+
+.info-container {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  margin: 50px 10%;
+}
+
+.card {
+  width: 80px;
+  margin-left: 50px;
+}
+
+.box {
+  border: 1px solid #0099ff;
+  border-radius: 5px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+
+
+.quote-container {
+  background-color: lightgrey;
+  line-height: 1.5em;
+}
+
+.quote-container p {
+  font-style: italic;
+  margin: 20% 10%;
+}
+
+.quote-container span {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  float: right;
+  margin-top: -10%;
+}
+
+.sign-up-container {
+  clear: both;
+}
+
+.sign-up-card {
+  background-color:rgb(7, 105, 233);
+  color: whitesmoke;
+  padding: 5% 10%;
+  display: flex;
+  flex: 1 0 0;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+
+
+.sign-up-card .btn {
+  border: 1px solid white;
+}
+
+.btn {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: rgb(7, 105, 233);
+}
